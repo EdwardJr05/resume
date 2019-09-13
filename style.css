@@ -5,23 +5,61 @@ body{
   line-height: 1.6em;
   margin:0;
   padding: 0;
+
+}
+
+.Resume{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+
 }
 
 .AboutMe{
-  font: outline;
   color: red;
+  font-style: normal;
+  font-family: "Arial" sans-serif;
+  font-size: 12px;
+  position: relative;
+  background: silver;
+  border: solid;
+  border-color: black;
+  border-style: solid;
+  border-radius: 5px;
+  background-image:url("aboutme.jpg");
+  background-size: 360px 120px;
+  background-position: right;
+  background-repeat: no-repeat;
+
+
+  grid-area: 1 / 2 / 2 / 3;
+/*grid order start row/starting column/end row/end column*/
+  box-shadow: 0 4px 8px black;
+
 }
 
 .Education{
-  font:;
-  Color:;
+  border: solid;
+  background: silver;
+  border-color: black;
+  border-style: double;
 }
 
 .Experience{
+  border: solid;
+  background: silver;
+  border-color: black;
+  border-style: double;
 
 }
 
 .ContactInformation{
+  border: solid;
+  background: silver;
+  border-color: black;
+  border-style: double;
 
 }
 
