@@ -1,10 +1,10 @@
 body{
-  background-color: white;
+  background-color: #f4f6f6;
   color: black;
   font-size: 16px;
   line-height: 1.6em;
-  margin:0;
-  padding: 0;
+  margin:10px;
+  padding: 10px;
 
 }
 
@@ -12,7 +12,7 @@ body{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 15px;
+  grid-column-gap: 35px;
   grid-row-gap: 15px;
 
 }
@@ -43,8 +43,8 @@ body{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("aboutme.jpg");
   min-height: 150px;
+
 
 }
 
@@ -55,10 +55,13 @@ body{
 
 .Education{
   border: solid;
-  background: silver;
+  background: #ffffff;
   border-color: black;
   border-style: double;
-  grid-area: 1 / 1 / 2 / 3; 
+  border-radius: 5px;
+  grid-area: 1 / 1 / 2 / 3;
+  box-shadow: 0 4px 8px black;
+  
 }
 
 .Experience{
@@ -79,13 +82,14 @@ body{
 }
 
 .navbar{
-  background-color: silver;
+  background-color: black;
   color: white;
 }
 
 .navbar ul{
   padding: 0;
   list-style-type: none;
+  text-align: right;
 }
 
 .navbar li{
@@ -93,7 +97,7 @@ body{
 }
 
 .navbar a{
-  color: black;
+  color: #fefeff;
   text-decoration: none;
   font-size: 18px;
   padding-right: 15px;
@@ -106,6 +110,10 @@ h1{
 }
 
 .Card-Header{
+  font-size: 26px;
+  text-shadow: 5px;
+  text-align: left;
+  font-family: Calibri sans-serif;
 
 }
 
