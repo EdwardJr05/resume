@@ -44,8 +44,19 @@ body{
 
 }
 
+.Top-Card1{
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 150px;
+  position: relative;
+  background-color: #000000
+}
+
+
 .Bottom-Card{
   padding: 10px;
+
 
 }
 
@@ -65,12 +76,13 @@ body{
   background: #ffffff;
   grid-area: 1 / 1 / 2 / 3;
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
-
+  position: relative;
+  background-size: contain;
 }
 
 .Experience{
   background: #ffffff;
-  grid-area: 2 / 1 / 2 / 3;
+  grid-area: 2 / 1 /;
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   overflow: hidden;
 
