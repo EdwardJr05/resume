@@ -20,17 +20,15 @@ body{
 .AboutMe{
   color: black;
   font-style: normal;
-  font-family: "Arial" sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 12px;
   position: relative;
   background: #ffffff;
   grid-area: 1 / 3 / 2 / 4;
-/*grid order start row/starting column/end row/end column*/
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   padding-right: 0px;
   padding-top: 0px;
   padding-left: 0px;
-
 
 }
 
@@ -41,7 +39,6 @@ body{
   min-height: 150px;
   position: relative;
 
-
 }
 
 .Top-Card1{
@@ -50,9 +47,8 @@ body{
   background-repeat: no-repeat;
   min-height: 150px;
   position: relative;
-  background-color: #000000
+  background-color: #000000;
 }
-
 
 .Bottom-Card{
   padding: 10px;
@@ -82,7 +78,7 @@ body{
 
 .Experience{
   background: #ffffff;
-  grid-area: 2 / 1 /;
+  grid-area: 2 / 1 / 3 / 2;
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   overflow: hidden;
 
@@ -91,6 +87,7 @@ body{
 .ContactInformation{
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   background: #ffffff;
+  grid-area: 2 / 2 / 3 / 3;
 
 
 }
@@ -129,12 +126,36 @@ h1{
   font-size: 26px;
   text-shadow: 1px 1px #000000;
   text-align: center;
-  font-family: Calibri sans-serif;
+  font-family: 'Calibri', sans-serif;
 
 }
 
 #main-footer{
   text-align: center;
+}
+@media only screen and (min-width:601px) and (max-width:992px) {
+  /* tablet size rules */
+  body{
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width:50px) and (max-width:600px) {
+  /* mobile size rules */
+  .Resume{
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .AboutMe{
+      grid-area: initial;
+    }
+    .ContactInformation{
+      grid-area: initial;
+    }
+    .Experience{
+      grid-area: initial;
+    }
+    .Education{
+      grid-area: initial;
+    }
 }
 
 /* * { background-color: rgba(255,0,0,.2); }
