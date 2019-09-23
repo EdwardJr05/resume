@@ -53,7 +53,6 @@ body{
 .Bottom-Card{
   padding: 10px;
 
-
 }
 
 .profile-pic{
@@ -74,6 +73,7 @@ body{
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   position: relative;
   background-size: contain;
+
 }
 
 .Experience{
@@ -89,6 +89,17 @@ body{
   background: #ffffff;
   grid-area: 2 / 2 / 3 / 3;
 
+}
+
+#more {
+  display: none;
+
+}
+
+#myBtn {
+  background: #000000;
+  color: #ffffff;
+  box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
 
 }
 
@@ -119,7 +130,6 @@ h1{
   color: #000000;
   text-shadow: 10px;
 
-
 }
 
 .Card-Header{
@@ -136,7 +146,7 @@ h1{
 @media only screen and (min-width:601px) and (max-width:992px) {
   /* tablet size rules */
   body{
-    background-color: yellow;
+    background-color: #ffffff;
   }
 }
 @media only screen and (min-width:50px) and (max-width:600px) {
