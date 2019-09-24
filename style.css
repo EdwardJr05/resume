@@ -90,6 +90,12 @@ body{
   grid-area: 2 / 2 / 3 / 3;
 
 }
+.Social-Profiles{
+  box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
+  background: #ffffff;
+  grid-area: 2 / 3 / 3 / 3;
+
+}
 
 #more {
   display: none;
