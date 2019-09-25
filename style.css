@@ -55,6 +55,12 @@ body{
 
 }
 
+.Bottom-Card1{
+  text-align: left;
+  background-color: #ffffff;
+
+}
+
 .profile-pic{
   height: 100px;
   width: 100px;
@@ -73,12 +79,17 @@ body{
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   position: relative;
   background-size: contain;
+  text-align: justify;
+  font-family: "Arial", serif;
+  font-size: 16px;
+
+
 
 }
 
 .Experience{
   background: #ffffff;
-  grid-area: 2 / 1 / 3 / 2;
+  grid-area: 2 / 1 / 3 / 3;
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   overflow: hidden;
 
@@ -87,7 +98,7 @@ body{
 .ContactInformation{
   box-shadow: -1px 7px 28px -9px rgba(0,0,0,0.32);
   background: #ffffff;
-  grid-area: 2 / 2 / 3 / 3;
+  grid-area: 2 / 3 / 3 / 3;
 
 }
 .Social-Profiles{
