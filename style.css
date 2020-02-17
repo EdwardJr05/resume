@@ -78,7 +78,7 @@ body {
   height: 100px;
   margin: 0 auto;
   position: relative;
-  top: 55px;
+  top: 135px;
   width: 100px;
 
 }
@@ -150,11 +150,12 @@ a:link, a:visited {
   text-align: left;
   text-decoration: none;
 }
-
+/**
 a:hover, a:active {
-  background-color: yellow;
+  background-color: #000;
+  color: blue;
 }
-
+*/
 #more {
   display: none;
 
